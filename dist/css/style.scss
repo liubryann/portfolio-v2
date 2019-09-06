@@ -1,0 +1,29 @@
+@import "config";
+@import "reset";
+
+h1 {
+  color: $primary-color;
+}
+
+.nav_container {
+  position: relative;
+  align-items: center;
+}
+
+.nav_icon {
+  width: 70px;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 0 20px;
+  align-self: flex-start;
+}
+
+.nav_list {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.nav_list_item {
+  display: inline-block;
+}
