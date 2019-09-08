@@ -1,0 +1,39 @@
+@import "reset";
+@import "vars";
+
+@import "base";
+
+@import "components/nav";
+@import "components/home";
+
+// .home {
+//   position: relative;
+//   z-index: 10;
+// }
+// h1 {
+//   color: $primary-color;
+// }
+
+// .container {
+//   display: flex;
+// }
+
+// .nav_icon {
+//   width: 70px;
+//   height: auto;
+//   margin: 0;
+//   padding: 20px 0 0 20px;
+//   flex: 1 1 0;
+//   align-self: flex-start;
+// }
+
+// .nav_list {
+//   margin: 0;
+//   padding: 0;
+//   flex: 1 1 0;
+//   align-self: flex-end;
+// }
+
+// .nav_list_item {
+//   display: inline-block;
+// }
