@@ -8,22 +8,28 @@
 }
 
 .nav ul {
+  //   position: relative;
   display: flex;
   list-style: none;
-  width: 30%;
-  height: auto;
-  justify-content: center;
-  margin-top: 2rem;
-  flex: 1 1 0;
+  //   width: 30%;
+  //   height: auto;
+  //   justify-content: center;
+  margin-top: 3rem;
+
+  //   flex: 1 1 0;
+  margin-right: 5%;
+  margin-left: auto;
 }
 
 .nav ul li {
-  margin: 2rem 1rem;
-  padding: 2rem;
+  //   margin: 2rem 1rem;
+  padding: 2.5rem;
 }
 
 .nav ul li a {
+  display: inline-block;
   text-decoration: none;
+  letter-spacing: 0.5px;
   color: $black;
   transition: color 250ms ease;
 }
@@ -33,15 +39,22 @@
 }
 
 .nav_icon {
-  width: 70%;
+  //   width: 70%;
   height: auto;
   margin: 0;
   padding: 40px 0 0 20px;
-  flex: 1 1 0;
-  align-self: flex-start;
+  //   flex: 1 1 0;
+  //   align-self: flex-start;
 }
 
 .nav_icon a img {
   width: 80px;
   height: auto;
+  overflow: visible;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+  }
 }

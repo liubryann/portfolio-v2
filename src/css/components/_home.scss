@@ -1,9 +1,84 @@
+.home_container {
+  display: flex;
+  flex-flow: row wrap;
+}
 .home_title {
   position: relative;
   max-width: 840px;
+  //   width: 60%;
   margin: 5em 0 0 0.5em;
   letter-spacing: -1px;
   line-height: 1.7;
   font-size: 3rem;
+  font-weight: 400;
+  //   float: left;
+  flex: 1 1 0;
+}
+
+.home_title a {
+  color: #00204e;
+  text-decoration: none;
+  &:hover {
+    color: $black;
+  }
+}
+
+// .portrait {
+//   min-width: 0;
+
+//   grid-area: bioimage;
+//   margin: 8rem 0 0 5rem;
+//   //   padding: 0;
+//   border-radius: 50%;
+//   width: 400px;
+//   height: auto;
+//   float: right;
+//   flex: 0 1.5 400px;
+// }
+
+.employer_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5em 0 0 1em;
+}
+
+.employer {
+  width: 200px;
+  height: auto;
+  padding-right: 30rem;
+}
+.previous_employer {
+  width: 600px;
+  height: auto;
+
+  &.wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.employer a img,
+.previous_employer a img {
+  width: 200px;
+  height: auto;
+  overflow: visible;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  &.dons {
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.employer h3,
+.previous_employer h3 {
+  width: 200px;
+  margin-bottom: 1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
   font-weight: 400;
 }
