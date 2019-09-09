@@ -15,8 +15,10 @@
   </head>
 
   <body class="main">
-    <div class="container">
+    <!-- <div class="container"> -->
+      <!-- <div class="container"> -->
       <nav class="nav">
+        <div class="nav_container">
         <div class="nav_icon">
           <a href="index.html">
             <img src="../img/portfolio_icon.svg" alt="BL logo" />
@@ -25,20 +27,23 @@
 
         <ul>
           <li>
-            <a href="#work">Work</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
         <!--add the scrolly stuff-->
+      </div>
       </nav>
+      <!-- </div> -->
 
       <section id="home">
+        <div class="container">
         <div class="home_container">
         <div class="home_title">
           <h1>
-            I'm Bryan Liu, a Computer Science & Statistics Double Specialist currently studying at the
+            I'm Bryan Liu, a <a href="https://utsc.calendar.utoronto.ca/specialist-program-computer-science-science">Software Engineering</a> & <a href="https://utsc.calendar.utoronto.ca/specialist-program-statistics-science">Statistical Machine Learning</a> Specialist currently studying at the
             <a href="https://www.utoronto.ca/">University of Toronto.</a>
           </h1>
         </div>
@@ -57,33 +62,68 @@
           </div>
         </div>
       </div>
+    </div>
      
         </section>
       </section>
 
-      <section id="work">
-        <h1>Work</h1>
-      </section>
-
-      <section id="contact">
-        <h1>Contact</h1>
-
-      <footer> <div class="icons">
-          <a href="https://github.com/liubryann">
-            Github
-          </a>
-          <a href="https://www.linkedin.com/in/bryanliu-2000/">
-            Linkedin
-          </a>
-          <a href="https://www.instagram.com/bryanthecompsciguy/">
-            Instagram
-          </a>
-          <a>Email</a>
+      <section id="projects" class="projects">
+        <div class="container">
+        <div class="projects_container">
+        <div class="projects_label"><h1>Featured Projects</h1></div>
           
+        <div class="links_container">
+          <a href="https://github.com/eric-li18/remind-me" class="project_link">
+            <div class="project_link_wrapper">
+              <img class="project_link_image" src="../img/remindme.png">
+              <div class="project_link_content">
+                <h3>Remind-Me
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/liubryann/real-calculator" class="project_link">
+            <div class="project_link_wrapper">
+              <img class="project_link_image" src="../img/calculator.png">
+              <div class="project_link_content">
+                <h3>Calculator
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-      </section>
-</footer>
     </div>
+      </section>
+
+
+        
+
+      <footer id="contact" class="footer"> 
+       <div class="footer_title">
+          <h1 class="projects_label">Got any questions?<pre> </pre><a class = "mail" href="mailto: bryan.liu@mail.utoronto.ca">Let's talk.</a></h1>
+        </div>
+          
+        <div class="containers">
+          <ul class="social_list">
+            <li class="social_list_item"><a href="https://github.com/liubryann">
+              Github
+            </a></li>
+            <li class="social_list_item"> <a href="https://www.linkedin.com/in/bryanliu-2000/">
+              Linkedin
+            </a></li>
+            <li class="social_list_item"> <a href="https://www.instagram.com/bryanthecompsciguy/">
+              Instagram
+            </a></li>
+         
+        </ul>
+      </div>
+      
+</footer>
+<section id="work">
+    <p style="margin-left:5rem">im really tired i'll add more later</p>
+  </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/main.js"></script>
   </body>
