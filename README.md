@@ -1,2 +1,4 @@
 # portfolio-v2
-v2 of my portfolio website
+Just a simple web portfolio built in HTML, CSS and JS hosted with a Ubuntu Droplet from Digital Ocean. 
+
+Check it out at [liubryan.com](liubryan.com) 
