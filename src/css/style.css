@@ -89,18 +89,19 @@ section {
 }
 
 .nav_icon {
-  height: auto;
+  width: 120px;
+  height: 80px;
   margin: 0;
   padding: 40px 0 0 20px;
 }
 
-.nav_icon a img {
-  width: 80px;
+.nav_icon a div {
+  width: 150px;
   height: auto;
   overflow: visible;
   transition: all 200ms ease-in-out;
 }
-.nav_icon a img:hover {
+.nav_icon a div:hover {
   transform: translateY(-3px);
   opacity: 0.9;
 }
